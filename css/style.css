@@ -12,6 +12,9 @@
 .rm-brd-btm {
     border-bottom: 0;
 }
+.rm-pdd-btm {
+    padding-bottom: 0;
+}
 .height-2x {
     height: calc(var(--row-height) *2);
 }
