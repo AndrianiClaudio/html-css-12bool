@@ -6,6 +6,15 @@
 .row {
     height: var(--row-height);
 }
+[class*="align-"] {
+    height: 50px;
+}
+.rm-brd-btm {
+    border-bottom: 0;
+}
+.height-2x {
+    height: calc(var(--row-height) *2);
+}
 section > .row > [class*="col-"] {
     border: 1px solid white;
 }

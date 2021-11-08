@@ -12,10 +12,17 @@
     flex-direction: row;
     flex-wrap: wrap;
 }
-.height-2x {
-    flex-shrink: 2;
-}
 
+/* align */
+.align-top {
+    align-self: flex-start;
+}
+.align-middle {
+    align-self: center;
+}
+.align-bottom {
+    align-self: flex-end;
+}
 /* justify */
 .justify-start {
     justify-content: flex-start;
