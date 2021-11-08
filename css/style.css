@@ -1,0 +1,16 @@
+:root {
+    --main-row-color: #006CFA;
+    --inside-row-color: #00E265;
+}
+.row {
+    background-color: var(--main-row-color);
+}
+html {
+    font-size: 100%;
+}
+span {
+    color: white;
+}
+section {
+    padding-bottom: 1em;
+}
