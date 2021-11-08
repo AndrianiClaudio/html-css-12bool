@@ -2,8 +2,12 @@
     --main-row-color: #006CFA;
     --inside-row-color: #00E265;
 }
-.row {
+.row > [class*="col-"]  {
     background-color: var(--main-row-color);
+}
+[class*="col-"] {
+    border: 1px solid white;
+    height: 32px;
 }
 html {
     font-size: 100%;
@@ -12,5 +16,5 @@ span {
     color: white;
 }
 section {
-    padding-bottom: 1em;
+    padding-bottom: 0.7em;
 }
