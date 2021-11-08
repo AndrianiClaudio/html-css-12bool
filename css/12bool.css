@@ -33,6 +33,12 @@
 .justify-end {
     justify-content: flex-end;
 }
+.justify-s-around {
+    justify-content: space-around;
+}
+.justify-s-between {
+    justify-content: space-between;
+}
 /* col-width */
 .col-xs-1 {
     flex-basis: calc((100% /12) *1);

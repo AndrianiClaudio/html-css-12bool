@@ -1,7 +1,7 @@
 :root {
     --main-row-color: #006CFA;
     --inside-row-color: #00E265;
-    --row-height: 50px;
+    --row-height: 40px;
 }
 .row {
     height: var(--row-height);
@@ -15,14 +15,15 @@
 .height-2x {
     height: calc(var(--row-height) *2);
 }
-section > .row > [class*="col-"] {
+section > .row > [class*="col-"],
+div > .row > [class*="col-"] {
     border: 1px solid white;
 }
 html {
     font-size: 100%;
     color: white;
 }
-h2 {
+h2,h3 {
     color: black;
 }
 span {
@@ -31,7 +32,9 @@ span {
 section {
     padding-bottom: 0.7em;
 }
-
+.hgt-60px {
+    height: 60px;
+}
 .row > [class*="col-"]  {
     background-color: var(--main-row-color);
     display: flex;
