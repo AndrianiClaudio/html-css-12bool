@@ -2,13 +2,18 @@
     --main-row-color: #006CFA;
     --inside-row-color: #00E265;
 }
-[class*="col-"] {
-    border: 1px solid white;
+.row {
     height: 32px;
+}
+section > .row > [class*="col-"] {
+    border: 1px solid white;
 }
 html {
     font-size: 100%;
     color: white;
+}
+h2 {
+    color: black;
 }
 span {
     font-size: 0.8em;
@@ -22,4 +27,20 @@ section {
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
+}
+
+/* container interni */
+.row .container {
+    justify-content: center;
+    width: 95%;
+}
+.row .row {
+    align-items: center;
+}
+.row .row > [class*="col-"] {
+    background-color: var(--inside-row-color);
+    color: white;
+    border: 1px solid var(--main-row-color);
+    height: 70%;
 }
