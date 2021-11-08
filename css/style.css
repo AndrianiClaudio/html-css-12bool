@@ -1,9 +1,10 @@
 :root {
     --main-row-color: #006CFA;
     --inside-row-color: #00E265;
+    --row-height: 50px;
 }
 .row {
-    height: 50px;
+    height: var(--row-height);
 }
 section > .row > [class*="col-"] {
     border: 1px solid white;

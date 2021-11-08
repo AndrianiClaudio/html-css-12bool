@@ -11,9 +11,21 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    overflow: hidden;
+}
+.height-2x {
+    flex-shrink: 2;
 }
 
+/* justify */
+.justify-start {
+    justify-content: flex-start;
+}
+.justify-center {
+    justify-content: center;
+}
+.justify-end {
+    justify-content: flex-end;
+}
 /* col-width */
 .col-xs-1 {
     flex-basis: calc((100% /12) *1);
