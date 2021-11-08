@@ -3,7 +3,7 @@
     --inside-row-color: #00E265;
 }
 .row {
-    height: 32px;
+    height: 50px;
 }
 section > .row > [class*="col-"] {
     border: 1px solid white;
